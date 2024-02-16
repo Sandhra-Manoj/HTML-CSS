@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    
+    <style>
+       body{
+        background-color:antiquewhite;
+       }
+        a {
+            text-decoration: none;
+            padding: 10px;
+            color: yellow;
+            background-color: skyblue;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            float: right;
+            margin: 20px;
+        }
+        a:hover{
+            background-color:azure;
+            color: black;
+        }
+        div.image{
+            margin: 5px;
+            border: 2px solid aqua;
+            float: left; 
+        }
+       
+        div.p{
+            color: purple;
+            padding: 15px;
+            text-align: center;
+            background-color: skyblue;
+        }
+       .image:hover{
+        border: 2px brown;
+       }
+       .static{
+        position: sticky;
+        top: 0;
+       }   
+       /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+    </style>
+</head>
+<body>
+    <div class="static">
+    <ul>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+    <li><a href="">TEAM</a></li>
+    <li><a href="">GALLERY</a></li>
+    <li><a href="">HOME</a></li>
+    </ul>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="image">
+    <img src="images/download.jfif" width="400px" height="300px">
+    <div class="p"> Image1</div></div>
+    <div class="image">
+    <img src="images/image 3.avif"width="400px" height="300px">
+    <div class="p"> Image2</div></div>
+    <div class="image">
+    <img src="images/images (1).jfif"width="400px" height="300px">
+    <div class="p"> Image3</div></div>
+    <div class="image">
+    <img src="images/images.jfif"width="400px" height="300px">
+    <div class="p"> Image4</div></div>
+    <div class="image">
+    <img src="images/img 4.jpg"width="400px" height="300px">
+    <div class="p"> Image5</div></div>
+    <div class="image">
+    <img src="images/pexels-pixabay-36717.jpg"width="400px" height="300px">
+    <div class="p"> Image6</div></div>
+</body>
+</html>
